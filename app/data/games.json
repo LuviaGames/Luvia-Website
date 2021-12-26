@@ -1,7 +1,95 @@
 {
-    "games": [
+    "KORROR": {
+        "id": "korror",
+        "cover": "",
+        "video": "",
+        "name": {
+            "en": "Korror",
+            "es": "Korror"
+        },
+        "brief": {
+            "en": "",
+            "es": ""
+        },
+        "description": {
+            "en": "",
+            "es": ""
+        },
+        "factsheet": {
+            "developer": {
+                "en": "",
+                "es": ""
+            },
+            "platforms": "",
+            "multiplayer": "",
+            "social": {
+                "reddit": "",
+                "discord": ""
+            }
+        },
+        "screenshots": []
+    },
 
-        
+    "FALLING_MINER": {
+        "id": "falling-miner",
+        "cover": "",
+        "video": "",
+        "name": {
+            "en": "Falling Miner",
+            "es": "Falling Miner"
+        },
+        "brief": {
+            "en": "",
+            "es": ""
+        },
+        "description": {
+            "en": "",
+            "es": ""
+        },
+        "factsheet": {
+            "developer": {
+                "en": "",
+                "es": ""
+            },
+            "platforms": "",
+            "multiplayer": "",
+            "social": {
+                "reddit": "",
+                "discord": ""
+            }
+        },
+        "screenshots": []
+    },
 
-    ]
+    "PULSE": {
+        "id": "pulse",
+        "cover": "",
+        "video": "",
+        "name": {
+            "en": "Pulse",
+            "es": "Pulse"
+        },
+        "brief": {
+            "en": "",
+            "es": ""
+        },
+        "description": {
+            "en": "",
+            "es": ""
+        },
+        "factsheet": {
+            "developer": {
+                "en": "",
+                "es": ""
+            },
+            "platforms": "",
+            "multiplayer": "",
+            "social": {
+                "reddit": "",
+                "discord": ""
+            }
+        },
+        "screenshots": []
+    }
+
 }

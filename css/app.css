@@ -93,7 +93,7 @@
 #footer div{
 	display: flex;
 	flex-direction: row;
-	margin: 8px 0px;
+	margin: 16px 0px;
 }
 
 .icon-footer{
