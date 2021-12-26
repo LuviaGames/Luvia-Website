@@ -1,0 +1,49 @@
+/* SECTION: FEATURED */
+
+#section-featured{
+	background: #000;
+	width: 100%;
+	height: calc(100% - var(--navigation-bar-height));
+}
+
+/* SECTION: GAMES */
+
+#section-games{
+	background: #212121;
+	min-height: 500px;
+}
+
+#games-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	margin-top: 32px;
+}
+
+.game-card{
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	margin: 8px;
+	cursor: pointer;
+}
+
+.game-cover{
+	width: 100%;
+	height: 400px;
+	border-radius: 3px;
+}
+
+.game-name{
+	margin-top: 16px;
+	font-weight: 700;
+}
+
+/* SECTION: NEWS */
+
+#section-news{
+	background: #212121;
+	height: 500px;
+}

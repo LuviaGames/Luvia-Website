@@ -1,0 +1,68 @@
+{
+    "news": [
+        
+        {
+            "image": "",
+            "video": "",
+            "date": {
+                "en": "",
+                "es": ""
+            },
+            "header": {
+                "en": "",
+                "es": ""
+            },
+            "brief": {
+                "en": "",
+                "es": ""
+            },
+            "description": {
+                "en": "",
+                "es": ""
+            }
+        },
+
+        {
+            "image": "",
+            "video": "",
+            "date": {
+                "en": "",
+                "es": ""
+            },
+            "header": {
+                "en": "",
+                "es": ""
+            },
+            "brief": {
+                "en": "",
+                "es": ""
+            },
+            "description": {
+                "en": "",
+                "es": ""
+            }
+        },
+
+        {
+            "image": "",
+            "video": "",
+            "date": {
+                "en": "",
+                "es": ""
+            },
+            "header": {
+                "en": "",
+                "es": ""
+            },
+            "brief": {
+                "en": "",
+                "es": ""
+            },
+            "description": {
+                "en": "",
+                "es": ""
+            }
+        }
+
+    ]
+}

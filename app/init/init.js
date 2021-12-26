@@ -1,0 +1,1 @@
+APP.CORE.UI.setUserLanguage(APP.CORE.UI.getUserLanguage());

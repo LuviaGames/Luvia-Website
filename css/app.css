@@ -1,0 +1,108 @@
+/* VARIABLES */
+
+:root{
+	--navigation-bar-height: 86px;
+}
+
+/* COMMON */
+
+.section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 48px;
+}
+
+.section-wrapper{
+	width: 100%;
+	height: 100%;
+	max-width: 900px;
+}
+
+.section-header{
+	width: 100%;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+/* NAVIGATION BAR */
+
+#navigation-bar{
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	background: #000;
+	width: 100%;
+	height: var(--navigation-bar-height);
+	top: 0;
+	left: 0;
+	padding: 8px 32px;
+}
+
+#luvia-games-logo{
+	background: url("../assets/branding/logo-white.png") no-repeat center;
+	background-size: contain;
+	width: 100px;
+	height: 54px;
+	cursor: pointer;
+}
+
+#navigation-bar-buttons{
+	text-align: right;
+	width: 100%;
+}
+
+.button-navigation-bar{
+	box-sizing: border-box;
+	font-weight: 700;
+	margin: 0px 8px;
+	padding: 8px;
+	color: rgba(255,255,255,0.70);
+	transition: all 0.1s ease;
+}
+
+.button-navigation-bar:hover{
+	color: rgba(255,255,255,1);
+}
+
+#button-luvia-cloud{
+	background: #007dfc;
+	color: #FFF;
+	border-radius: 3px;
+}
+
+#button-luvia-cloud:hover{
+	filter: brightness(110%);
+}
+
+/* FOOTER */
+
+#footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #121212;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 16px;
+}
+
+#footer div{
+	display: flex;
+	flex-direction: row;
+	margin: 8px 0px;
+}
+
+.icon-footer{
+	width: 42px;
+	height: 42px;
+	margin: 0 16px;
+}
+
+#footer p{
+	font-size: 14px;
+	margin: 0 16px;
+}
