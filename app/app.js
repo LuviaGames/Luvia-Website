@@ -1,5 +1,9 @@
 var APP = {
-    CORE: {},
+    CORE: {
+        LOADER: {},
+        MOD: {},
+        UI: {}
+    },
     DATA: {},
     I18N: {}
 }

@@ -1,7 +1,7 @@
 /* SECTION: FEATURED */
 
 #section-featured{
-	background: #000;
+	background: #121212;
 	width: 100%;
 	height: calc(100% - var(--navigation-bar-height));
 }
@@ -9,8 +9,7 @@
 /* SECTION: GAMES */
 
 #section-games{
-	background: #212121;
-	min-height: 500px;
+
 }
 
 #games-list{
@@ -44,6 +43,5 @@
 /* SECTION: NEWS */
 
 #section-news{
-	background: #212121;
-	height: 500px;
+
 }

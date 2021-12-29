@@ -40,20 +40,7 @@
         <section id="section-games" class="section">
             <div class="section-wrapper">
                 <p class="i18n section-header" data-i18n="RKSSP"></p>
-                <div id="games-list">
-                    <div class="game-card"> 
-                        <img class="game-cover" src="assets/backgrounds/bg-empty-game-cover.png"></img>
-                        <p class="game-name">Korror</p>
-                    </div>
-                    <div class="game-card">
-                        <img class="game-cover" src="assets/backgrounds/bg-empty-game-cover.png"></img>
-                        <p class="game-name">Falling Miner</p>
-                    </div>
-                    <div class="game-card">
-                        <img class="game-cover" src="assets/backgrounds/bg-empty-game-cover.png"></img>
-                        <p class="game-name">Pulse</p>
-                    </div>
-                </div>
+                <div id="games-list"></div>
             </div>
         </section>
 
@@ -87,9 +74,14 @@
     <script src="app/i18n/i18n.js"></script>
 
     <!-- Core Logic -->
+    <script src="app/core/loader/loader.js"></script>
     <script src="app/core/ui/ui.js"></script>
     
     <!-- Init -->
     <script src="app/init/init.js"></script>
+
+    <script>
+        APP.CORE.LOADER.load("INDEX");
+    </script>
 
 </html>

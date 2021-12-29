@@ -2,6 +2,8 @@
 
 :root{
 	--navigation-bar-height: 86px;
+	--navigation-bar-background: #121212;
+	--section-background: #202020;
 }
 
 /* COMMON */
@@ -11,7 +13,9 @@
 	flex-direction: column;
 	align-items: center;
 	box-sizing: border-box;
+	background: var(--section-background);
 	width: 100%;
+	min-height: 500px;	
 	padding: 48px;
 }
 
@@ -33,7 +37,7 @@
 	display: flex;
 	align-items: center;
 	box-sizing: border-box;
-	background: #000;
+	background: var(--navigation-bar-background);
 	width: 100%;
 	height: var(--navigation-bar-height);
 	top: 0;
@@ -58,13 +62,12 @@
 	box-sizing: border-box;
 	font-weight: 700;
 	margin: 0px 8px;
-	padding: 8px;
-	color: rgba(255,255,255,0.70);
+	color: rgba(255,255,255,0.30);
 	transition: all 0.1s ease;
 }
 
 .button-navigation-bar:hover{
-	color: rgba(255,255,255,1);
+	color: #FFF;
 }
 
 #button-luvia-cloud{
