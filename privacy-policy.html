@@ -21,6 +21,8 @@
 
     <body>
 
+        <!-- NAVIGATION BAR -->
+
         <div id="navigation-bar">
             <a href="index.html"><div id="luvia-games-logo"></div></a>
             <div id="navigation-bar-buttons">
@@ -31,11 +33,16 @@
             </div>
         </div>
 
-        <section id="section-news" class="section">
+        <!-- SECTION NEWS -->
+
+        <section id="section-privacy-policy" class="section">
             <div class="section-wrapper">
                 <p class="i18n section-header" data-i18n="OUOCG"></p>
+                <div id="privacy-policy"></div>
             </div>
         </section>
+
+        <!-- FOOTER -->
 
         <footer id="footer">
             <div>
@@ -65,5 +72,7 @@
     
     <!-- Init -->
     <script src="app/init/init.js"></script>
+
+    <script>APP.CORE.LOADER.load("PRIVACY_POLICY")</script>
 
 </html>

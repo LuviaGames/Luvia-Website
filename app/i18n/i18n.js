@@ -31,8 +31,8 @@ APP.I18N = {
     },
     
     "KJOPG": {
-        en: "Sign In",
-        es: "Iniciar Sesión"
+        en: "Sign in to Luvia",
+        es: "Iniciar sesión en Luvia"
     },
     
     "CACDC": {

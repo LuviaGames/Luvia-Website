@@ -1,3 +1,104 @@
+/* FONTS */
+
+@font-face{
+  font-family: "Metropolis";
+  font-weight: 300;
+  src: url('fonts/Metropolis-Light.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: "Metropolis";
+  font-weight: 400;
+  src: url('fonts/Metropolis-Regular.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: "Metropolis";
+  font-weight: 500;
+  src: url('fonts/Metropolis-Medium.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: "Metropolis";
+  font-weight: 600;
+  src: url('fonts/Metropolis-SemiBold.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: "Metropolis";
+  font-weight: 700;
+  src: url('fonts/Metropolis-Bold.woff2') format('woff2');
+}
+
+/* RESET */
+
+html{
+  background: #19191C;  
+  height: 100%;
+	width: 100%;
+}
+
+html, body, div, span, p, img, u, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  visibility: visible;
+  position: relative;
+  background: #19191C;
+  color: #FAFAFA;  
+	width: 100%;
+	height: 100%;
+	line-height: 1.25;
+	font-family: Metropolis, arial, sans-serif;
+  font-weight: 400;
+  top: 0;
+  left: 0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+}
+
+input{
+  display: block;
+  border: none;
+  background: transparent;
+	outline: none;
+  font-family: "Signika";
+}
+
+img{
+  pointer-events: none;
+}
+
+button{
+  border: none;
+ 	background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.no-display{
+  display: none;
+}
+
 /* VARIABLES */
 
 :root{
@@ -6,7 +107,7 @@
 	--section-background: #202020;
 }
 
-/* COMMON */
+/* SECTIONS */
 
 .section{
 	display: flex;
@@ -28,7 +129,7 @@
 .section-header{
 	width: 100%;
 	font-size: 36px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 /* NAVIGATION BAR */
@@ -54,15 +155,24 @@
 }
 
 #navigation-bar-buttons{
-	text-align: right;
+	display: flex;
+	justify-content: flex-end;
 	width: 100%;
+}
+
+.navigation-bar-menu{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100px;
 }
 
 .button-navigation-bar{
 	box-sizing: border-box;
-	font-weight: 700;
+	font-weight: 500;
 	margin: 0px 8px;
-	color: rgba(255,255,255,0.30);
+	color: rgba(255,255,255,0.40);
 	transition: all 0.1s ease;
 }
 
@@ -71,7 +181,7 @@
 }
 
 #button-luvia-cloud{
-	background: #007dfc;
+	background: #0066cc;
 	color: #FFF;
 	border-radius: 3px;
 }
@@ -90,6 +200,7 @@
 	background: #121212;
 	box-sizing: border-box;
 	width: 100%;
+	height: 160px;
 	padding: 16px;
 }
 

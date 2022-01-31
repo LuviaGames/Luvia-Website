@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "off",
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background": "#4040402c",
+        "editorIndentGuide.activeBackground": "#707070"
+    }    
+}

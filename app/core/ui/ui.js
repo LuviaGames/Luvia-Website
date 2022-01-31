@@ -28,9 +28,61 @@ APP.CORE.UI = (function(){
         }
     };
 
+    var renderGames = function(games){
+        var lang = APP.CORE.UI.getUserLanguage();
+        var gameList = document.getElementById("games-list");
+        gameList.innerHTML = "";
+        for(var i=0; i<games.length; i++){
+            var gameCard = document.createElement("DIV");
+            gameCard.className = "game-card";
+            var gameCover = document.createElement("IMG");
+            gameCover.className = "game-cover";
+            gameCover.src = games[i].cover;
+            var gameName = document.createElement("P");
+            gameName.className = "game-name";
+            gameName.innerText = games[i].name[lang];
+            gameCard.append(gameCover, gameName);
+            gameList.append(gameCard);
+        }
+    }
+
+    var renderNews = function(news){
+        var lang = APP.CORE.UI.getUserLanguage();
+        var newsList = document.getElementById("news-list");
+        for(var i=0; i<news.length; i++){
+            var newsCard = document.createElement("DIV");
+            newsCard.className = "news-card";
+            var newDate = document.createElement("DIV");
+            newDate.className = "new-date";
+            newDate.innerHTML = news[i].date[lang];
+            var newHeader = document.createElement("DIV");
+            newHeader.className = "new-header";
+            newHeader.innerHTML = news[i].header[lang];
+            var newBrief = document.createElement("DIV");
+            newBrief.className = "new-brief";
+            newBrief.innerHTML = news[i].brief[lang];
+            var newDescription = document.createElement("DIV");
+            newDescription.className = "new-description";
+            newDescription.innerHTML = news[i].description[lang];
+            newsCard.append(newDate, newHeader, newBrief, newDescription);
+            newsList.append(newsCard);
+        }
+    }
+
+    var renderPrivacy = function(privacy){
+        var lang = APP.CORE.UI.getUserLanguage();
+        var privacyPolicy = document.getElementById("privacy-policy");
+        for(var i=0; i<privacy.length; i++){
+            console.log(privacy[i]);
+        }
+    }    
+
     return {
         getUserLanguage: getUserLanguage,
-        setUserLanguage: setUserLanguage
+        setUserLanguage: setUserLanguage,
+        renderGames: renderGames,
+        renderNews: renderNews,
+        renderPrivacy: renderPrivacy
     };
 
 })();
