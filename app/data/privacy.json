@@ -3,7 +3,7 @@
     "privacy": [
 
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "Effective Date: 31th January 2022",
                 "es": ""
@@ -11,7 +11,7 @@
         },
         
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "Purpose",
                 "es": ""
@@ -19,7 +19,7 @@
         },
 
         {
-            "type": "BODY",
+            "type": "body",
             "text": {
                 "en": [
                     "1. When, why and how we collect and store your personal data",
@@ -36,7 +36,7 @@
         },
 
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "When do we collect your data?",
                 "es": ""
@@ -44,7 +44,7 @@
         },
 
         {
-            "type": "BODY",
+            "type": "body",
             "text": {
                 "en": [
                     "We ONLY collect data if you have a registered a Luvia Cloud account and you've Logged In in a service that uses it, like a game or a website.",
@@ -57,7 +57,7 @@
         },
 
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "Why do we need your data?",
                 "es": ""
@@ -65,7 +65,7 @@
         },
 
         {
-            "type": "BODY",
+            "type": "body",
             "text": {
                 "en": [
                     "We will use your data to provide you with the services required for our products to function as expected.",
@@ -78,7 +78,7 @@
         },
 
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "How we collect your data?",
                 "es": ""
@@ -86,7 +86,7 @@
         },
 
         {
-            "type": "BODY",
+            "type": "body",
             "text": {
                 "en": [
                     "When you Sign Up to Luvia Cloud we will securely store the following data:",
@@ -104,7 +104,7 @@
         },
 
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "How we use your personal data?",
                 "es": ""
@@ -112,7 +112,7 @@
         },
 
         {
-            "type": "BODY",
+            "type": "body",
             "text": {
                 "en": [
                     "We will only use your data to provide you the services you expect from our products. We will NOT sell nor share your data with a third party."
@@ -124,7 +124,7 @@
         },
 
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "Your rights and options",
                 "es": ""
@@ -132,7 +132,7 @@
         },
 
         {
-            "type": "BODY",
+            "type": "body",
             "text": {
                 "en": [
                     "We believe in providing you complete control about your data. This includes:",
@@ -146,7 +146,7 @@
         },
 
         {
-            "type": "HEADER",
+            "type": "header",
             "text": {
                 "en": "Contact us",
                 "es": ""
@@ -154,7 +154,7 @@
         },
 
         {
-            "type": "BODY",
+            "type": "body",
             "text": {
                 "en": [
                     "If you have any questions about the Privacy Policy, please contact us at luviagames@gmail.com"
