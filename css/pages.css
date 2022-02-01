@@ -1,4 +1,8 @@
-/* NAVIGATION */
+/* ==================== */
+/* || INDEX */
+/* ==================== */
+
+/* Navigation */
 
 #games-navigation{
 	position: absolute;
@@ -14,7 +18,7 @@
 	display: flex;
 }
 
-/* SECTION: FEATURED */
+/* Section: Featured */
 
 #section-featured{
 	background: #121212;
@@ -22,7 +26,7 @@
 	height: calc(100% - var(--navigation-bar-height));
 }
 
-/* SECTION: GAMES */
+/* Section: Games */
 
 #section-games{
 
@@ -56,7 +60,7 @@
 	font-weight: 700;
 }
 
-/* SECTION: NEWS */
+/* Section: News */
 
 #section-news{
 
@@ -94,3 +98,27 @@
 .new-brief{
 	margin-bottom: 8px;
 }
+
+/* ==================== */
+/* || PRIVACY POLICY  */
+/* ==================== */
+
+#privacy-policy{
+	margin-top: 16px;
+}
+
+.privacy-header{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 16px;
+	opacity: 0.50;
+}
+
+.privacy-body{
+	margin-bottom: 16px;
+}
+
+.privacy-body p{
+	margin-bottom: 8px;
+}
+

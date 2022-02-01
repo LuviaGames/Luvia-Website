@@ -91,11 +91,11 @@ APP.CORE.UI = (function(){
         for(var i=0; i<privacy.length; i++){
             var privacyBlock = _createElement({
                 tag: "DIV",
-                className: "privacy-" + privacy.type
+                className: "privacy-" + privacy[i].type
             });
-            if(Array.isArray(privacy.text[lang])){
-                for(var j=0; j<privacy.text[lang].length; j++){
-                    var text = privacy.text[lang][j];
+            if(Array.isArray(privacy[i].text[lang])){
+                for(var j=0; j<privacy[i].text[lang].length; j++){
+                    var text = privacy[i].text[lang][j];
                     var privacyText = _createElement({
                         tag: "P",
                         className: "",
@@ -108,7 +108,7 @@ APP.CORE.UI = (function(){
                 var privacyText = _createElement({
                     tag: "P",
                     className: "",
-                    innerHTML: privacy.text[lang]
+                    innerHTML: privacy[i].text[lang]
                 });
                 privacyBlock.append(privacyText);
             }

@@ -6,7 +6,7 @@
             "type": "header",
             "text": {
                 "en": "Effective Date: 31th January 2022",
-                "es": ""
+                "es": "Fecha efectiva: 31 Enero 2022"
             }
         },
         
@@ -14,7 +14,7 @@
             "type": "header",
             "text": {
                 "en": "Purpose",
-                "es": ""
+                "es": "Motivos"
             }
         },
 
@@ -30,7 +30,12 @@
                     "Your continued use of the Service after the effective date will be subject to the new Privacy Policy."
                 ],
                 "es": [
-
+                    "1. Donde, porqué y como obtenemos y almacenamos tus información personal",
+                    "2. Como utilizamos tus datos",
+                    "3. Las opciones que dispones para gestionar tus datos",
+                    "Esta Política de Privacidad aplica a los juegos de Luvia Games, páginas web y servicios relacionados, que agruparemos como Servicio.",
+                    "Nos reservamos el derecho de actualizar de manera períodica esta Política de Privacidad. Ante cualquier cambio, te notificaremos publicando un boleto informativo en el Servicio antes de que los cambios se hagan efectivos",
+                    "Tu uso continuo del Servicio tras la fecha efectiva estará sujeto a la nueva Política de Privacidad."
                 ]
             }
         },
@@ -39,7 +44,7 @@
             "type": "header",
             "text": {
                 "en": "When do we collect your data?",
-                "es": ""
+                "es": "¿Cuándo obtenemos tus datos?"
             }
         },
 
@@ -48,10 +53,11 @@
             "text": {
                 "en": [
                     "We ONLY collect data if you have a registered a Luvia Cloud account and you've Logged In in a service that uses it, like a game or a website.",
-                    "We will NOT collect any data on offline games where Luvia Cloud services are not present and we will NOT collect data if you are not using Luvia Cloud or online features that require by their nature the need of a registered account."
+                    "We will NOT collect any data on offline games where Luvia Cloud services are not present. We will NOT collect data if you are not using Luvia Cloud or online features that require, by their nature, the need of a registered account."
                 ],
                 "es": [
-
+                    "Únicamente obtenemos datos si tienes una cuenta registrada con Luvia Cloud y has iniciado sesión en un servició que lo utilice, como un juego una página web.",
+                    "Nosotros NO obtenemos datos en juegos sin conexión donde los servicios de Luvia Cloud no están presentes. No obtendremos datos si usted decide no utilizar Luvia Cloud o funcionalidades online que requieren, dada su naturaleza, el uso de una cuenta registrada."
                 ]
             }
         },
@@ -60,7 +66,7 @@
             "type": "header",
             "text": {
                 "en": "Why do we need your data?",
-                "es": ""
+                "es": "¿Porqué necesitamos tus datos?"
             }
         },
 
@@ -69,10 +75,11 @@
             "text": {
                 "en": [
                     "We will use your data to provide you with the services required for our products to function as expected.",
-                    "This includes (but it's not limited to): backing up your game save file and PVP services."
+                    "This includes (but it's not limited to): backing up your game save file and online PVP (Player vs Player) services."
                 ],
                 "es": [
-
+                    "Utilizamos tus datos para proporcionarte los servicios requeridos para que nuestros productos funcionen correctamente.",
+                    "Esto incluye (pero no está limitado a): almacenar copias de seguridad de tu fichero de juego y servicios en línea JcJ (Jugador contra Jugador)"
                 ]
             }
         },
@@ -81,7 +88,7 @@
             "type": "header",
             "text": {
                 "en": "How we collect your data?",
-                "es": ""
+                "es": "¿Como obtenemos tu información?"
             }
         },
 
@@ -94,11 +101,17 @@
                     "* Your IP address",
                     "* Your device ID",
                     "* Your email address",
-                    "* Your login password",
+                    "* Your login credentials",
                     "If you use a game that includes the Luvia Cloud service, we will also store a backup of the game save data and other game related information like rankings, elo scores etc. This data will depend on the games nature."
                 ],
                 "es": [
-
+                    "Cuando te registras a Luvia Cloud, almacenaremos de manera segura la siguiente información:",
+                    "* Hora de registr",
+                    "* Tu dirección IP",
+                    "* El identificador de tu dispositivo",
+                    "* Tu dirección de correo electrónico",
+                    "* Tus credenciales para el inicio de sesión",
+                    "Si utilizas un juego que incluye el servicio Luvia Cloud, entonces almacenaremos también una copia de seguridad de los datos del juego y otra información relacionada con el juego. Esta última dependerá exlucisvamente de la naturaleza del juego."
                 ]
             }
         },
@@ -107,7 +120,7 @@
             "type": "header",
             "text": {
                 "en": "How we use your personal data?",
-                "es": ""
+                "es": "¿Como utilizamos tu información personal?"
             }
         },
 
@@ -118,7 +131,7 @@
                     "We will only use your data to provide you the services you expect from our products. We will NOT sell nor share your data with a third party."
                 ],
                 "es": [
-
+                    "Únicamente utilizaremos tus datos para proporcionarte los servicios que esperas de nuestros productos. NO vendremos ni compartiremos tu información con terceros."
                 ]
             }
         },
@@ -127,7 +140,7 @@
             "type": "header",
             "text": {
                 "en": "Your rights and options",
-                "es": ""
+                "es": "Tus derechos y opciones"
             }
         },
 
@@ -140,7 +153,9 @@
                     "* The ability to request a report on the data we hold about you"
                 ],
                 "es": [
-
+                    "Queremos proporcionarte un completo control sobre tus datos. Esto incluye:",
+                    "* La capacidad de solicitar un borrado completo de tus datos en un tiempo razonable",
+                    "* La capacidad de solicitar un reporte de los datos que almacenamos sobre ti"
                 ]
             }
         },
@@ -149,7 +164,7 @@
             "type": "header",
             "text": {
                 "en": "Contact us",
-                "es": ""
+                "es": "Contacta con nosotros"
             }
         },
 
@@ -160,7 +175,7 @@
                     "If you have any questions about the Privacy Policy, please contact us at luviagames@gmail.com"
                 ],
                 "es": [
-
+                    "Si tienes alguna duda sobre la Política de Privacidad, por favor contacta con nosotros en luviagames@gmail.com"
                 ]
             }
         }
