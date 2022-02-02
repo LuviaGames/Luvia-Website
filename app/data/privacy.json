@@ -172,10 +172,10 @@
             "type": "body",
             "text": {
                 "en": [
-                    "If you have any questions about the Privacy Policy, please contact us at luviagames@gmail.com"
+                    "If you have any questions about the Privacy Policy, please contact us at <a href='mailto:luviagames@gmail.com'>luviagames@gmail.com</a>"
                 ],
                 "es": [
-                    "Si tienes alguna duda sobre la Política de Privacidad, por favor contacta con nosotros en luviagames@gmail.com"
+                    "Si tienes alguna duda sobre la Política de Privacidad, por favor contacta con nosotros en <a href='mailto:luviagames@gmail.com'>luviagames@gmail.com</a>"
                 ]
             }
         }
