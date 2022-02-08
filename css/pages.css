@@ -122,3 +122,8 @@
 	margin-bottom: 8px;
 }
 
+.privacy-body a{
+	text-decoration: underline;	
+	font-weight: 700;
+}
+
