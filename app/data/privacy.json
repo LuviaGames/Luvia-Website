@@ -52,11 +52,11 @@
             "type": "body",
             "text": {
                 "en": [
-                    "We ONLY collect data if you have a registered a Luvia Cloud account and you've Logged In in a service that uses it, like a game or a website.",
+                    "User data might be collected by third party ad providers such as AdMob. We will ONLY collect data if you have a registered a Luvia Cloud account and you've Logged In in a service that uses it, like a game or a website.",
                     "We will NOT collect any data on offline games where Luvia Cloud services are not present. We will NOT collect data if you are not using Luvia Cloud or online features that require, by their nature, the need of a registered account."
                 ],
                 "es": [
-                    "Únicamente obtenemos datos si tienes una cuenta registrada con Luvia Cloud y has iniciado sesión en un servició que lo utilice, como un juego una página web.",
+                    "Los datos de usuario pueden ser recopilados por proveedores de anuncios como AdMob. Nostros únicamente obtenemos datos si tienes una cuenta registrada con Luvia Cloud y has iniciado sesión en un servició que lo utilice, como un juego una página web.",
                     "Nosotros NO obtenemos datos en juegos sin conexión donde los servicios de Luvia Cloud no están presentes. No obtendremos datos si usted decide no utilizar Luvia Cloud o funcionalidades online que requieren, dada su naturaleza, el uso de una cuenta registrada."
                 ]
             }
